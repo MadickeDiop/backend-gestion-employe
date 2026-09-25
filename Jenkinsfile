@@ -51,7 +51,7 @@ pipeline {
 
     post {
         success {
-            echo "Déploiement Backend Gestion employé réussi !"
+            echo "Déploiement Backend Gestion employé réussiiiii !"
         }
         failure {
             echo "Le déploiement a échoué, vérifiez les logs Jenkinssss."
