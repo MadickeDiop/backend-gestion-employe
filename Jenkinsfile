@@ -54,7 +54,7 @@ pipeline {
             echo "Déploiement Backend Gestion employé réussi !"
         }
         failure {
-            echo "Le déploiement a échoué, vérifiez les logs Jenkins."
+            echo "Le déploiement a échoué, vérifiez les logs Jenkinssss."
         }
     }
 }
