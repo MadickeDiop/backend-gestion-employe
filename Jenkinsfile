@@ -1,11 +1,11 @@
 pipeline {
 
-    agent any
+    // agent any
 
-   /*  agent {
+    agent {
         label 'agent-windows'  
        
-    } */
+    }
 
     environment {
         DOCKERHUB_USER = "ditdevops1"
