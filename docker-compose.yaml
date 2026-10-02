@@ -41,8 +41,9 @@ services:
 
   # -------------------------------
   # Backend Gestion Employé
-  # -------------------------------
+  # ------------------------------- pull de l'image
   backend-service:
+    # build: .
     image: ditdevops1/backend-employe:1.${BUILD_NUMBER}
     container_name: backend-employe-prod
     ports:
